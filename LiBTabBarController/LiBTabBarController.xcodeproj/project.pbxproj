@@ -42,8 +42,8 @@
 		BC6BA9DE1C1AA43800EDE348 /* LBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarController.m; sourceTree = "<group>"; };
 		BC6BA9E01C1AA4AE00EDE348 /* LBPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPlusButton.h; sourceTree = "<group>"; };
 		BC6BA9E11C1AA4AE00EDE348 /* LBPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPlusButton.m; sourceTree = "<group>"; };
-		BC6BA9E31C1AB62B00EDE348 /* LBTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBTabBarControllerConfig.h; path = ../LBTabBarControllerConfig.h; sourceTree = "<group>"; };
-		BC6BA9E41C1AB62B00EDE348 /* LBTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBTabBarControllerConfig.m; path = ../LBTabBarControllerConfig.m; sourceTree = "<group>"; };
+		BC6BA9E31C1AB62B00EDE348 /* LBTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBarControllerConfig.h; sourceTree = "<group>"; };
+		BC6BA9E41C1AB62B00EDE348 /* LBTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarControllerConfig.m; sourceTree = "<group>"; };
 		BC6BA9E71C1AB70600EDE348 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		BC6BA9E81C1AB70600EDE348 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		BC6BA9EA1C1AB72100EDE348 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -91,6 +91,8 @@
 				BC6BA9D61C1AA2E200EDE348 /* configs */,
 				BC6BA9C21C1AA2B900EDE348 /* AppDelegate.h */,
 				BC6BA9C31C1AA2B900EDE348 /* AppDelegate.m */,
+				BC6BA9E31C1AB62B00EDE348 /* LBTabBarControllerConfig.h */,
+				BC6BA9E41C1AB62B00EDE348 /* LBTabBarControllerConfig.m */,
 				BC6BA9C51C1AA2B900EDE348 /* ViewController.h */,
 				BC6BA9C61C1AA2B900EDE348 /* ViewController.m */,
 				BC6BA9C81C1AA2B900EDE348 /* Main.storyboard */,
@@ -113,8 +115,6 @@
 		BC6BA9D61C1AA2E200EDE348 /* configs */ = {
 			isa = PBXGroup;
 			children = (
-				BC6BA9E31C1AB62B00EDE348 /* LBTabBarControllerConfig.h */,
-				BC6BA9E41C1AB62B00EDE348 /* LBTabBarControllerConfig.m */,
 				BC6BA9DA1C1AA3F500EDE348 /* LBTabBar.h */,
 				BC6BA9DB1C1AA3F500EDE348 /* LBTabBar.m */,
 				BC6BA9DD1C1AA43800EDE348 /* LBTabBarController.h */,
