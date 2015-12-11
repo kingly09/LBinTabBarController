@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  LiBTabBarController
+//  LBTabBarController
 //
 //  Created by kingly on 15/12/11.
 //  Copyright © 2015年 kingly. All rights reserved.
@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    
     // 设置主窗口,并设置跟控制器
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
@@ -26,7 +26,7 @@
     [self.window makeKeyAndVisible];
     
     //[self setUpNavigationBarAppearance];
-
+    
     return YES;
 }
 

@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  LiBTabBarController
+//  LBTabBarController
 //
 //  Created by kingly on 15/12/11.
 //  Copyright © 2015年 kingly. All rights reserved.
