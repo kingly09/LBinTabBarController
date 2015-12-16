@@ -23,14 +23,8 @@
 		BC6BAA371C1ACA6400EDE348 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA301C1ACA6400EDE348 /* TestViewController.m */; };
 		BC6BAA381C1ACA6400EDE348 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6BAA311C1ACA6400EDE348 /* TestViewController.xib */; };
 		BC6BAA391C1ACA6400EDE348 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA331C1ACA6400EDE348 /* ThirdViewController.m */; };
-		BCE711B01C211EC100C2155F /* LBPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AB1C211EC100C2155F /* LBPlusButton.m */; };
-		BCE711B11C211EC100C2155F /* LBPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AB1C211EC100C2155F /* LBPlusButton.m */; };
-		BCE711B21C211EC100C2155F /* LBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AD1C211EC100C2155F /* LBTabBar.m */; };
-		BCE711B31C211EC100C2155F /* LBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AD1C211EC100C2155F /* LBTabBar.m */; };
-		BCE711B41C211EC100C2155F /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AF1C211EC100C2155F /* LBTabBarController.m */; };
-		BCE711B51C211EC100C2155F /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AF1C211EC100C2155F /* LBTabBarController.m */; };
-		BCE711B61C211ED300C2155F /* LBTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCE711AE1C211EC100C2155F /* LBTabBarController.h */; };
 		BCE711D31C2138F900C2155F /* LBPlusButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC6BAA1C1C1AC9F700EDE348 /* LBPlusButton.h */; };
+		BCE711E21C2140C700C2155F /* LBPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711E11C2140C700C2155F /* LBPlusButtonSubclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +35,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				BCE711D31C2138F900C2155F /* LBPlusButton.h in CopyFiles */,
-				BCE711B61C211ED300C2155F /* LBTabBarController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +71,8 @@
 		BC6BAA321C1ACA6400EDE348 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		BC6BAA331C1ACA6400EDE348 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		BCE711A01C211E8500C2155F /* libLBTab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLBTab.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCE711AA1C211EC100C2155F /* LBPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPlusButton.h; sourceTree = "<group>"; };
-		BCE711AB1C211EC100C2155F /* LBPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPlusButton.m; sourceTree = "<group>"; };
-		BCE711AC1C211EC100C2155F /* LBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBar.h; sourceTree = "<group>"; };
-		BCE711AD1C211EC100C2155F /* LBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBar.m; sourceTree = "<group>"; };
-		BCE711AE1C211EC100C2155F /* LBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBarController.h; sourceTree = "<group>"; };
-		BCE711AF1C211EC100C2155F /* LBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarController.m; sourceTree = "<group>"; };
+		BCE711E01C2140C700C2155F /* LBPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPlusButtonSubclass.h; sourceTree = "<group>"; };
+		BCE711E11C2140C700C2155F /* LBPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPlusButtonSubclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +118,8 @@
 				BC6BAA281C1ACA6400EDE348 /* Classes */,
 				BC6BAA071C1AC8C000EDE348 /* AppDelegate.h */,
 				BC6BAA081C1AC8C000EDE348 /* AppDelegate.m */,
+				BCE711E01C2140C700C2155F /* LBPlusButtonSubclass.h */,
+				BCE711E11C2140C700C2155F /* LBPlusButtonSubclass.m */,
 				BC6BAA251C1ACA3400EDE348 /* LBTabBarControllerConfig.h */,
 				BC6BAA261C1ACA3400EDE348 /* LBTabBarControllerConfig.m */,
 				BC6BAA0A1C1AC8C000EDE348 /* ViewController.h */,
@@ -193,12 +184,6 @@
 		BCE711A91C211EC100C2155F /* LBTab */ = {
 			isa = PBXGroup;
 			children = (
-				BCE711AA1C211EC100C2155F /* LBPlusButton.h */,
-				BCE711AB1C211EC100C2155F /* LBPlusButton.m */,
-				BCE711AC1C211EC100C2155F /* LBTabBar.h */,
-				BCE711AD1C211EC100C2155F /* LBTabBar.m */,
-				BCE711AE1C211EC100C2155F /* LBTabBarController.h */,
-				BCE711AF1C211EC100C2155F /* LBTabBarController.m */,
 			);
 			name = LBTab;
 			path = LBTabBarController/LBTab;
@@ -297,19 +282,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6BAA361C1ACA6400EDE348 /* SecondViewController.m in Sources */,
-				BCE711B01C211EC100C2155F /* LBPlusButton.m in Sources */,
 				BC6BAA0C1C1AC8C000EDE348 /* ViewController.m in Sources */,
 				BC6BAA391C1ACA6400EDE348 /* ThirdViewController.m in Sources */,
 				BC6BAA241C1AC9F700EDE348 /* LBTabBarController.m in Sources */,
 				BC6BAA091C1AC8C000EDE348 /* AppDelegate.m in Sources */,
 				BC6BAA271C1ACA3400EDE348 /* LBTabBarControllerConfig.m in Sources */,
+				BCE711E21C2140C700C2155F /* LBPlusButtonSubclass.m in Sources */,
 				BC6BAA061C1AC8C000EDE348 /* main.m in Sources */,
 				BC6BAA221C1AC9F700EDE348 /* LBPlusButton.m in Sources */,
 				BC6BAA371C1ACA6400EDE348 /* TestViewController.m in Sources */,
 				BC6BAA351C1ACA6400EDE348 /* FourthViewController.m in Sources */,
-				BCE711B21C211EC100C2155F /* LBTabBar.m in Sources */,
 				BC6BAA231C1AC9F700EDE348 /* LBTabBar.m in Sources */,
-				BCE711B41C211EC100C2155F /* LBTabBarController.m in Sources */,
 				BC6BAA341C1ACA6400EDE348 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,9 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE711B11C211EC100C2155F /* LBPlusButton.m in Sources */,
-				BCE711B51C211EC100C2155F /* LBTabBarController.m in Sources */,
-				BCE711B31C211EC100C2155F /* LBTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
