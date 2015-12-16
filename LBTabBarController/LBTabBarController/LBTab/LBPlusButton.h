@@ -16,7 +16,7 @@ extern UIButton <LBPlusButtonSubclassingDelegate> *LBExternPushlishButton;
 
 @interface LBPlusButton : UIButton
 
-
++ (void)registerSubclass;
 
 @end
 
