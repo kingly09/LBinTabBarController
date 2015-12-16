@@ -30,6 +30,7 @@
 		BCE711B41C211EC100C2155F /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AF1C211EC100C2155F /* LBTabBarController.m */; };
 		BCE711B51C211EC100C2155F /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AF1C211EC100C2155F /* LBTabBarController.m */; };
 		BCE711B61C211ED300C2155F /* LBTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCE711AE1C211EC100C2155F /* LBTabBarController.h */; };
+		BCE711D31C2138F900C2155F /* LBPlusButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC6BAA1C1C1AC9F700EDE348 /* LBPlusButton.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				BCE711D31C2138F900C2155F /* LBPlusButton.h in CopyFiles */,
 				BCE711B61C211ED300C2155F /* LBTabBarController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
