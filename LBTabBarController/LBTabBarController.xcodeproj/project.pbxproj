@@ -23,7 +23,27 @@
 		BC6BAA371C1ACA6400EDE348 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA301C1ACA6400EDE348 /* TestViewController.m */; };
 		BC6BAA381C1ACA6400EDE348 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6BAA311C1ACA6400EDE348 /* TestViewController.xib */; };
 		BC6BAA391C1ACA6400EDE348 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA331C1ACA6400EDE348 /* ThirdViewController.m */; };
+		BCE711B01C211EC100C2155F /* LBPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AB1C211EC100C2155F /* LBPlusButton.m */; };
+		BCE711B11C211EC100C2155F /* LBPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AB1C211EC100C2155F /* LBPlusButton.m */; };
+		BCE711B21C211EC100C2155F /* LBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AD1C211EC100C2155F /* LBTabBar.m */; };
+		BCE711B31C211EC100C2155F /* LBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AD1C211EC100C2155F /* LBTabBar.m */; };
+		BCE711B41C211EC100C2155F /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AF1C211EC100C2155F /* LBTabBarController.m */; };
+		BCE711B51C211EC100C2155F /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711AF1C211EC100C2155F /* LBTabBarController.m */; };
+		BCE711B61C211ED300C2155F /* LBTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCE711AE1C211EC100C2155F /* LBTabBarController.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCE7119E1C211E8500C2155F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BCE711B61C211ED300C2155F /* LBTabBarController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BC6BAA011C1AC8C000EDE348 /* LBTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +62,8 @@
 		BC6BAA1F1C1AC9F700EDE348 /* LBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBar.m; sourceTree = "<group>"; };
 		BC6BAA201C1AC9F700EDE348 /* LBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBarController.h; sourceTree = "<group>"; };
 		BC6BAA211C1AC9F700EDE348 /* LBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarController.m; sourceTree = "<group>"; };
-		BC6BAA251C1ACA3400EDE348 /* LBTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBarControllerConfig.h; sourceTree = "<group>"; };
-		BC6BAA261C1ACA3400EDE348 /* LBTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarControllerConfig.m; sourceTree = "<group>"; };
+		BC6BAA251C1ACA3400EDE348 /* LBTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBTabBarControllerConfig.h; path = LBTabBarController/LBTabBarControllerConfig.h; sourceTree = SOURCE_ROOT; };
+		BC6BAA261C1ACA3400EDE348 /* LBTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBTabBarControllerConfig.m; path = LBTabBarController/LBTabBarControllerConfig.m; sourceTree = SOURCE_ROOT; };
 		BC6BAA291C1ACA6400EDE348 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		BC6BAA2A1C1ACA6400EDE348 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		BC6BAA2B1C1ACA6400EDE348 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
@@ -55,10 +75,24 @@
 		BC6BAA311C1ACA6400EDE348 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		BC6BAA321C1ACA6400EDE348 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		BC6BAA331C1ACA6400EDE348 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BCE711A01C211E8500C2155F /* libLBTab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLBTab.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE711AA1C211EC100C2155F /* LBPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPlusButton.h; sourceTree = "<group>"; };
+		BCE711AB1C211EC100C2155F /* LBPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPlusButton.m; sourceTree = "<group>"; };
+		BCE711AC1C211EC100C2155F /* LBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBar.h; sourceTree = "<group>"; };
+		BCE711AD1C211EC100C2155F /* LBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBar.m; sourceTree = "<group>"; };
+		BCE711AE1C211EC100C2155F /* LBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBarController.h; sourceTree = "<group>"; };
+		BCE711AF1C211EC100C2155F /* LBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BC6BA9FE1C1AC8C000EDE348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7119D1C211E8500C2155F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,6 +107,7 @@
 			children = (
 				BC6BAA1B1C1AC9F700EDE348 /* LBTab */,
 				BC6BAA031C1AC8C000EDE348 /* LBTabBarController */,
+				BCE711A11C211E8500C2155F /* LBTab */,
 				BC6BAA021C1AC8C000EDE348 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				BC6BAA011C1AC8C000EDE348 /* LBTabBarController.app */,
+				BCE711A01C211E8500C2155F /* libLBTab.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +180,28 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		BCE711A11C211E8500C2155F /* LBTab */ = {
+			isa = PBXGroup;
+			children = (
+				BCE711A91C211EC100C2155F /* LBTab */,
+			);
+			path = LBTab;
+			sourceTree = "<group>";
+		};
+		BCE711A91C211EC100C2155F /* LBTab */ = {
+			isa = PBXGroup;
+			children = (
+				BCE711AA1C211EC100C2155F /* LBPlusButton.h */,
+				BCE711AB1C211EC100C2155F /* LBPlusButton.m */,
+				BCE711AC1C211EC100C2155F /* LBTabBar.h */,
+				BCE711AD1C211EC100C2155F /* LBTabBar.m */,
+				BCE711AE1C211EC100C2155F /* LBTabBarController.h */,
+				BCE711AF1C211EC100C2155F /* LBTabBarController.m */,
+			);
+			name = LBTab;
+			path = LBTabBarController/LBTab;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,6 +222,23 @@
 			productReference = BC6BAA011C1AC8C000EDE348 /* LBTabBarController.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BCE7119F1C211E8500C2155F /* LBTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE711A81C211E8500C2155F /* Build configuration list for PBXNativeTarget "LBTab" */;
+			buildPhases = (
+				BCE7119C1C211E8500C2155F /* Sources */,
+				BCE7119D1C211E8500C2155F /* Frameworks */,
+				BCE7119E1C211E8500C2155F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTab;
+			productName = LBTab;
+			productReference = BCE711A01C211E8500C2155F /* libLBTab.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,6 +249,9 @@
 				ORGANIZATIONNAME = kingly;
 				TargetAttributes = {
 					BC6BAA001C1AC8C000EDE348 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BCE7119F1C211E8500C2155F = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
@@ -192,6 +270,7 @@
 			projectRoot = "";
 			targets = (
 				BC6BAA001C1AC8C000EDE348 /* LBTabBarController */,
+				BCE7119F1C211E8500C2155F /* LBTab */,
 			);
 		};
 /* End PBXProject section */
@@ -216,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6BAA361C1ACA6400EDE348 /* SecondViewController.m in Sources */,
+				BCE711B01C211EC100C2155F /* LBPlusButton.m in Sources */,
 				BC6BAA0C1C1AC8C000EDE348 /* ViewController.m in Sources */,
 				BC6BAA391C1ACA6400EDE348 /* ThirdViewController.m in Sources */,
 				BC6BAA241C1AC9F700EDE348 /* LBTabBarController.m in Sources */,
@@ -225,8 +305,20 @@
 				BC6BAA221C1AC9F700EDE348 /* LBPlusButton.m in Sources */,
 				BC6BAA371C1ACA6400EDE348 /* TestViewController.m in Sources */,
 				BC6BAA351C1ACA6400EDE348 /* FourthViewController.m in Sources */,
+				BCE711B21C211EC100C2155F /* LBTabBar.m in Sources */,
 				BC6BAA231C1AC9F700EDE348 /* LBTabBar.m in Sources */,
+				BCE711B41C211EC100C2155F /* LBTabBarController.m in Sources */,
 				BC6BAA341C1ACA6400EDE348 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7119C1C211E8500C2155F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE711B11C211EC100C2155F /* LBPlusButton.m in Sources */,
+				BCE711B51C211EC100C2155F /* LBTabBarController.m in Sources */,
+				BCE711B31C211EC100C2155F /* LBTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LBTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.LBTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,8 +444,49 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LBTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.LBTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCE711A61C211E8500C2155F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv6,
+					arm64,
+					armv7,
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s armv6";
+			};
+			name = Debug;
+		};
+		BCE711A71C211E8500C2155F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv6,
+					arm64,
+					armv7,
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s armv6";
 			};
 			name = Release;
 		};
@@ -373,6 +507,15 @@
 			buildConfigurations = (
 				BC6BAA191C1AC8C000EDE348 /* Debug */,
 				BC6BAA1A1C1AC8C000EDE348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE711A81C211E8500C2155F /* Build configuration list for PBXNativeTarget "LBTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE711A61C211E8500C2155F /* Debug */,
+				BCE711A71C211E8500C2155F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
