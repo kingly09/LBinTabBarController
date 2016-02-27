@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3459DC361C81AD6E00839E4E /* LBTabBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC6BAA1E1C1AC9F700EDE348 /* LBTabBar.h */; };
+		3459DC371C81AD7200839E4E /* LBTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC6BAA201C1AC9F700EDE348 /* LBTabBarController.h */; };
 		BC6BAA061C1AC8C000EDE348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA051C1AC8C000EDE348 /* main.m */; };
 		BC6BAA091C1AC8C000EDE348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA081C1AC8C000EDE348 /* AppDelegate.m */; };
 		BC6BAA0C1C1AC8C000EDE348 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA0B1C1AC8C000EDE348 /* ViewController.m */; };
@@ -34,6 +36,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				3459DC371C81AD7200839E4E /* LBTabBarController.h in CopyFiles */,
+				3459DC361C81AD6E00839E4E /* LBTabBar.h in CopyFiles */,
 				BCE711D31C2138F900C2155F /* LBPlusButton.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +504,7 @@
 				BCE711A71C211E8500C2155F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
