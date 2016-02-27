@@ -1,6 +1,6 @@
 //
 //  LBPlusButtonSubclass.m
-//  TestLibIEE
+//  LBTabBarController
 //
 //  Created by kingly on 15/12/16.
 //  Copyright © 2015年 kingly. All rights reserved.
@@ -106,15 +106,16 @@
 #pragma mark - Event Response
 
 - (void)clickPublish {
-    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-    UIViewController *viewController = tabBarController.selectedViewController;
+//    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+//    UIViewController *viewController = tabBarController.selectedViewController;
+//    
+//    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
+//                                                             delegate:nil
+//                                                    cancelButtonTitle:@"取消"
+//                                               destructiveButtonTitle:nil
+//                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
+//    [actionSheet showInView:viewController.view];
     
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
-                                                             delegate:nil
-                                                    cancelButtonTitle:@"取消"
-                                               destructiveButtonTitle:nil
-                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
-    [actionSheet showInView:viewController.view];
 }
 
 #pragma mark - UIActionSheetDelegate
