@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3459DC361C81AD6E00839E4E /* LBTabBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC6BAA1E1C1AC9F700EDE348 /* LBTabBar.h */; };
 		3459DC371C81AD7200839E4E /* LBTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC6BAA201C1AC9F700EDE348 /* LBTabBarController.h */; };
+		3459DC3D1C81B1FA00839E4E /* LBAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3459DC3C1C81B1FA00839E4E /* LBAddViewController.m */; };
 		BC6BAA061C1AC8C000EDE348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA051C1AC8C000EDE348 /* main.m */; };
 		BC6BAA091C1AC8C000EDE348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA081C1AC8C000EDE348 /* AppDelegate.m */; };
 		BC6BAA0C1C1AC8C000EDE348 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BAA0B1C1AC8C000EDE348 /* ViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3459DC3B1C81B1FA00839E4E /* LBAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAddViewController.h; sourceTree = "<group>"; };
+		3459DC3C1C81B1FA00839E4E /* LBAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAddViewController.m; sourceTree = "<group>"; };
 		BC6BAA011C1AC8C000EDE348 /* LBTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6BAA051C1AC8C000EDE348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC6BAA071C1AC8C000EDE348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				BC6BAA081C1AC8C000EDE348 /* AppDelegate.m */,
 				BCE711E01C2140C700C2155F /* LBPlusButtonSubclass.h */,
 				BCE711E11C2140C700C2155F /* LBPlusButtonSubclass.m */,
+				3459DC3B1C81B1FA00839E4E /* LBAddViewController.h */,
+				3459DC3C1C81B1FA00839E4E /* LBAddViewController.m */,
 				BC6BAA251C1ACA3400EDE348 /* LBTabBarControllerConfig.h */,
 				BC6BAA261C1ACA3400EDE348 /* LBTabBarControllerConfig.m */,
 				BC6BAA0A1C1AC8C000EDE348 /* ViewController.h */,
@@ -293,6 +298,7 @@
 				BC6BAA271C1ACA3400EDE348 /* LBTabBarControllerConfig.m in Sources */,
 				BCE711E21C2140C700C2155F /* LBPlusButtonSubclass.m in Sources */,
 				BC6BAA061C1AC8C000EDE348 /* main.m in Sources */,
+				3459DC3D1C81B1FA00839E4E /* LBAddViewController.m in Sources */,
 				BC6BAA221C1AC9F700EDE348 /* LBPlusButton.m in Sources */,
 				BC6BAA371C1ACA6400EDE348 /* TestViewController.m in Sources */,
 				BC6BAA351C1ACA6400EDE348 /* FourthViewController.m in Sources */,
