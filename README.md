@@ -2,7 +2,7 @@
 1)低耦合集成TabBarController 
 2)只需要 两个数组即可完成主流App框架搭建
 
-![](https://github.com/kingly09/LBinTabBarController/blob/master/btn.gif)
+![](https://github.com/kingly09/LBinTabBarController/blob/master/LBTab.gif)
 
 
 ### 第一步：把LBTab目录拷贝到您的工程下，或使用cocoapods
