@@ -8,6 +8,7 @@
 
 #import "LBPlusButtonSubclass.h"
 #import "LBAddViewController.h"
+#import "TestViewController.h"
 
 @interface LBPlusButtonSubclass () {
     CGFloat _buttonImageHeight;
@@ -107,29 +108,40 @@
 #pragma mark - Event Response
 
 - (void)clickPublish {
-//    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-//    UIViewController *viewController = tabBarController.selectedViewController;
-//    
-//    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
-//                                                             delegate:nil
-//                                                    cancelButtonTitle:@"取消"
-//                                               destructiveButtonTitle:nil
-//                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
-//    [actionSheet showInView:viewController.view];
-    
-    
-    
-    LBAddViewController *addView = [[LBAddViewController alloc]init];
-     UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-    
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
     UIViewController *viewController = tabBarController.selectedViewController;
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
+                                                             delegate:nil
+                                                    cancelButtonTitle:@"取消"
+                                               destructiveButtonTitle:nil
+                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
+    [actionSheet showInView:viewController.view];
 
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:addView];
+    
+//    
+//    LBAddViewController *addView = [[LBAddViewController alloc]init];
+//     UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+//    
+//    UIViewController *viewController = tabBarController.selectedViewController;
+//
+//    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:addView];
+//    
+//    
+//    [viewController presentViewController:navigationController animated:YES completion:^{}];
     
     
-    [viewController presentViewController:navigationController animated:YES completion:^{}];
+//
+    
+//    TestViewController *addView = [[TestViewController alloc]init];
+//    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+//    
+//    UIViewController *viewController = tabBarController.selectedViewController;
+    //
+    //    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:addView];
+    
+//    [viewController presentViewController:addView animated:YES completion:^{}];
 
-    
 }
 
 #pragma mark - UIActionSheetDelegate
