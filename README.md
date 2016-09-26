@@ -3,8 +3,10 @@
 2)只需要 两个数组即可完成主流App框架搭建
 
 
-### 第一步：把LBTab目录拷贝到您的工程下
-
+### 第一步：把LBTab目录拷贝到您的工程下，或使用cocoapods
+```
+ pod 'LBTab', '~> 0.0.1'
+```    
 
 ###  第二步：设置LBTabBarController的两个数组：控制器数组和TabBar属性数组
 
