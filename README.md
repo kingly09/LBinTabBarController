@@ -1,5 +1,5 @@
 # LBTabBarController
-1)低耦合集成TabBarController 
+1)低耦合集成TabBarController
 2)只需要 两个数组即可完成主流App框架搭建
 
 ![](https://github.com/kingly09/LBinTabBarController/blob/master/LBTab.gif)
@@ -7,7 +7,7 @@
 
 ### 第一步：把LBTab目录拷贝到您的工程下，或使用cocoapods
 ```
- pod 'LBTab', '~> 0.0.1'
+ pod 'LBTab'
 ```    
 
 ###  第二步：设置LBTabBarController的两个数组：控制器数组和TabBar属性数组
@@ -74,7 +74,7 @@ return YES;
 创建一个继承于 CYLPlusButton 的类，要求和步骤：
 
 
-1. 实现  `LBPlusButtonSubclassingDelegate`  协议 
+1. 实现  `LBPlusButtonSubclassingDelegate`  协议
 
 2. 子类将自身类型进行注册，一般可在 `application` 的 `applicationDelegate` 方法里面调用 `[YourClass registerSubClass]` 或者在子类的 `+load` 方法中调用：
 
@@ -105,3 +105,20 @@ return YES;
 
 该方法是为了调整自定义按钮中心点Y轴方向的位置，建议在按钮超出了 `tabbar` 的边界时实现该方法。返回值是自定义按钮中心点Y轴方向的坐标除以 `tabbar` 的高度，如果不实现，会自动进行比对，预设一个较为合适的位置，如果实现了该方法，预设的逻辑将失效。
 
+#  联系与建议反馈
+
+>
+> **weibo:** [http://weibo.com/balenn](http://weibo.com/balenn)
+>
+> **QQ:** 362108564
+>
+
+如果有任何你觉得不对的地方，或有更好的建议，以上联系都可以联系我。 十分感谢！
+
+# 鼓励
+
+它若不慎给您帮助，请不吝啬给它点一个**star**，是对它的最好支持，非常感谢！🙏
+
+# LICENSE
+
+LBTab 被许可在 **MIT** 协议下使用。查阅 **LICENSE** 文件来获得更多信息。

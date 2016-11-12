@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name         = "LBTab"
 s.summary      = "低耦合集成TabBarController,只需要两个数组即可快速搭建主流App框架."
-s.version      = '0.0.1'
+s.version      = '0.0.2'
 s.homepage     = "https://github.com/kingly09/LBinTabBarController"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "kingly" => "libintm@163.com" }
