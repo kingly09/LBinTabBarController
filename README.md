@@ -71,7 +71,7 @@ return YES;
 ### 第四步（可选）：创建自定义的形状不规则加号按钮
 
 
-创建一个继承于 CYLPlusButton 的类，要求和步骤：
+创建一个继承于 LBPlusButton 的类，要求和步骤：
 
 
 1. 实现  `LBPlusButtonSubclassingDelegate`  协议
